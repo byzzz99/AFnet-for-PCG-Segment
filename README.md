@@ -128,8 +128,6 @@ The model architecture includes:
 4. **MLP Blocks**: Process features with expanded dimensions
 5. **Four-class Segmentation Head**: Output segmentation for S1, systole, S2, and diastole
 
-![Model Architecture](image/model_figure.png)
-
 ## 📊 Results
 
 The model achieves competitive performance on both internal and external test sets. For detailed results and comparisons with other methods, please refer to the evaluation scripts and metrics implemented in this repository.
@@ -151,8 +149,6 @@ PCG_FTSeg/
 ├── utils.py                     # Utility functions
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # This file
-├── image/
-│   └── model_figure.png         # Model architecture diagram
 └── preprocessing/
     ├── signal_2016_and_AMC.py    # Preprocessing script for 2016 dataset
     └── signal_2022.py           # Preprocessing script for 2022 dataset
